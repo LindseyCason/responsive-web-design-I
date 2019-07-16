@@ -261,6 +261,12 @@ footer{
     .topBarHide{
         display: block;
     }
+    .services-info-img{
+        display: none;
+    }
+    .services-header-img{
+        width:100%;
+    }
     
 
 }
@@ -315,6 +321,23 @@ footer{
     .contact{
         border-top:2px solid black;
         padding-top: 20px;
+    }
+    .services-info-img, .services-header-img{
+        display: none;
+    }
+    .allItems, .serviceItemsLeft div, .serviceItemsRight div, .learnbutton{
+        display: flex;
+        flex-direction: column;
+        margin:10px;
+        padding: 10px;
+    }
+    h5, .bottomItemsDiv h3{
+        text-align: center;
+        background-color: lightgrey;
+        border: 1px solid black;
+        padding: 20px;
+        margin: 20px, 0px, 10px;
+        font-size: 150%
     }
 }
     
