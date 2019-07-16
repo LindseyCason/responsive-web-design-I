@@ -78,12 +78,13 @@ body{
 .nav{
 	display: flex;
 	justify-content: space-around;
-	align-items: center;
+    align-items: center;
 }
 
 .nav a{
 	text-decoration: none;
-	color: lightgrey;
+    color: lightgrey;
+    padding: 20px;
 }
 
 
@@ -253,7 +254,6 @@ footer{
     }
     .nav a{
         padding: 10px; 
-        /* display: none */
     }
     .middle-img{
         width: 100%;
